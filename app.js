@@ -1,6 +1,6 @@
 let record_btn=document.getElementById("record_btn");
 let count=0
-let url='./control.php'
+let url='https://tightrope.jp/stone/server/control.php'
 
 record_btn.addEventListener('click',function(){
   count++
