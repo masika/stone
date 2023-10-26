@@ -12,7 +12,7 @@
 
 <script>
   const button = document.querySelector('button');
-  const evtSource = new EventSource('https://tightrope.jp/stone/server/stream.php');
+  const evtSource = new EventSource('./server/stream.php');
   console.log(evtSource.withCredentials);
   console.log(evtSource.readyState);
   console.log(evtSource.url);

@@ -1,6 +1,6 @@
 let record_btn=document.getElementById("record_btn");
 let message_area=document.getElementById("message_area");
-let url='https://tightrope.jp/stone/server/control.php'
+let url='./server/control.php'
 
 record_btn.addEventListener('click',function(){
   calcRPM()
